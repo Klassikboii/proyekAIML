@@ -331,7 +331,7 @@ if __name__ == "__main__":
     }
     
     # Inisialisasi scheduler
-    scheduler = PowerPlantACOScheduler(
+    scheduler = ACO(
         total_capacity=150,
         min_capacity=100,
         critical_capacity=15,
